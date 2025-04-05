@@ -165,39 +165,7 @@
 <div class="container">
 
   <!-- Complaint Form -->
-  <div class="card">
-    <div class="form-group">
-      <label id="lblTitle">Complaint Title</label>
-      <input type="text" id="titleInput" />
-    </div>
-
-    <div class="form-group">
-      <label id="lblCategory">Category</label>
-      <select id="categorySelect">
-        <option>Pothole</option>
-        <option>Street Light</option>
-        <option>Garbage</option>
-        <option>Water Logging</option>
-      </select>
-    </div>
-
-    <div class="form-group">
-      <label id="lblLocation">Location</label>
-      <div class="gps-location">
-        <input type="text" id="locationInput" />
-        <button onclick="getGPS()">Get GPS</button>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label id="lblUpload">Upload Image</label>
-      <div class="upload-box" onclick="document.getElementById('fileInput').click()">Click to Upload</div>
-      <input type="file" id="fileInput" style="display:none" onchange="previewImage(event)" />
-      <img id="preview" class="preview" style="display:none" />
-    </div>
-
-    <button class="submit-btn" id="submitBtn">Submit Complaint</button>
-  </div>
+  
 
   <!-- Trending Complaints -->
   <div class="card">
